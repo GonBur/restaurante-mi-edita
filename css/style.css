@@ -26,6 +26,7 @@ body{
     overflow-y: hidden;
     grid-template-rows: 13rem auto 5rem;
     background-color: var(--colorFondo);
+    overflow-y: auto;
 }
 img{
     width: 100%;
@@ -205,6 +206,7 @@ p, a, h1{
 
 /* footer */
 .footer{
+    height: 6rem;
     padding: 0;
     background-color: var(--colorFooter);
     border-top: .2rem solid var(--blanco);
